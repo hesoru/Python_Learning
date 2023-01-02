@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+#author: github.com/hesoru/
 
 from calendar import c
 from cgi import print_environ
