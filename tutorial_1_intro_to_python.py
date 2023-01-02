@@ -42,7 +42,6 @@ import pickle
 #for/while loops
 #generators
     #return vs. yield
-    #UNFINISHED FIB FUNC HERE
 
 #applying commands to lists (list comprehension)
     #1. for loops
