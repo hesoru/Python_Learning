@@ -1,0 +1,47 @@
+asttokens==2.0.8
+backcall==0.2.0
+certifi==2022.9.24
+colorama==0.4.5
+contourpy @ file:///D:/bld/contourpy_1662135324760/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+debugpy==1.6.3
+decorator==5.1.1
+entrypoints==0.4
+executing==1.0.0
+fonttools @ file:///D:/bld/fonttools_1663708113092/work
+ipykernel==6.15.3
+ipython==8.5.0
+jedi==0.18.1
+jupyter-core==4.11.1
+jupyter_client==7.3.5
+kiwisolver @ file:///D:/bld/kiwisolver_1657953239132/work
+matplotlib @ file:///D:/bld/matplotlib-suite_1663359009845/work
+matplotlib-inline==0.1.6
+munkres==1.1.4
+nest-asyncio==1.5.5
+numpy @ file:///D:/bld/numpy_1662889088304/work
+packaging==21.3
+pandas @ file:///D:/bld/pandas_1663621248084/work
+parso==0.8.3
+pickleshare==0.7.5
+Pillow @ file:///D:/bld/pillow_1660385947107/work
+ply==3.11
+prompt-toolkit==3.0.31
+psutil==5.9.2
+pure-eval==0.2.2
+Pygments==2.13.0
+pyparsing==3.0.9
+PyQt5==5.15.7
+PyQt5-sip @ file:///D:/bld/pyqt-split_1657234606115/work/pyqt_sip
+python-dateutil==2.8.2
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1660580468234/work
+pywin32==304
+pyzmq==24.0.1
+sip @ file:///D:/bld/sip_1655765040828/work
+six==1.16.0
+stack-data==0.5.0
+toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
+tornado==6.2
+traitlets==5.4.0
+unicodedata2 @ file:///D:/bld/unicodedata2_1649112137711/work
+wcwidth==0.2.5
