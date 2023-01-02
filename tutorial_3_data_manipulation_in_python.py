@@ -7,8 +7,6 @@ from calendar import c
 from cgi import print_environ
 from pickle import TRUE
 
-#set python interpreter to pyenv when using pandas (packages installed into pyenv using conda)
-
 #abbreviate package using "as"
 
 #re: use wildcards!
@@ -114,7 +112,7 @@ pd_countries
 # importing csv file as dataframe ----------------------------------------------
 
 #first row and first column = 0
-enhancers_and_gene_expression = pd.read_csv("C:/Users/Helena/405_Linux_outputs/Gene_subsets/enhancer_status_with_genes_and_expression.tsv", sep='\t', header = 0, index_col = 0)
+enhancers_and_gene_expression = pd.read_csv("C:/Users/Helena/enhancer_status_with_genes_and_expression.tsv", sep='\t', header = 0, index_col = 0)
 print(enhancers_and_gene_expression)
 #[37914 rows x 30 columns]
 
