@@ -1,4 +1,3 @@
-C:\Users\Helena\miniconda3\envs\pyenv\python.exe
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
