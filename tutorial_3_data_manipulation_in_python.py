@@ -3,6 +3,10 @@
 
 #author: github.com/hesoru/
 
+#IMPORTANT: install enhancer_status_with_genes_and_expression.tsv (on GitHub in hesoru/Python_Learning)
+#and rename "C:/Users/Helena/405_Linux_outputs/Gene_subsets/enhancer_status_with_genes_and_expression.tsv" in line 119
+#to your own file path before running this script
+
 from calendar import c
 from cgi import print_environ
 from pickle import TRUE
@@ -112,7 +116,7 @@ pd_countries
 # importing csv file as dataframe ----------------------------------------------
 
 #first row and first column = 0
-enhancers_and_gene_expression = pd.read_csv("C:/Users/Helena/enhancer_status_with_genes_and_expression.tsv", sep='\t', header = 0, index_col = 0)
+enhancers_and_gene_expression = pd.read_csv("C:/Users/Helena/405_Linux_outputs/Gene_subsets/enhancer_status_with_genes_and_expression.tsv", sep='\t', header = 0, index_col = 0)
 print(enhancers_and_gene_expression)
 #[37914 rows x 30 columns]
 
@@ -318,8 +322,3 @@ MPP_histogram = plot.hist(clean_MPP_TPM, bins = 20, range = [0, 10])
 plot.show()
 
 #looks like most genes (>17,500) have ~0 TPM
-
-################################ matplotlib: boxplot ################################
-
-clean_enhancers_and_gene_expression
-TPM_data = clean_enhancers_and_gene_expression.columns.str.contains(".+_TPM")
