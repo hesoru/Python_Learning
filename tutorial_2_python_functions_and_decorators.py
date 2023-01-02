@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+#author: github.com/hesoru/
 
 from cgi import print_environ
 #functools: tools for working with functions (and other callable objects)
