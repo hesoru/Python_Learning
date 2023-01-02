@@ -1,4 +1,6 @@
+C:\Users\Helena\miniconda3\envs\pyenv\python.exe
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 from cgi import print_environ
 #re: wildcards
